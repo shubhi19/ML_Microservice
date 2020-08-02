@@ -21,6 +21,8 @@ Dockerfile creates a working directory and copies the source code to that direct
 
 ### Python Files
 The project contains a single python file `app.py` which predicts housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, etc. 
+#### Running Python Files 
+python app.py 
 
 
 
