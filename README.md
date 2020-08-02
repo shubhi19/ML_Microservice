@@ -12,5 +12,15 @@ The project uses [kubernetes](https://kubernetes.io/), which is an open-source s
 * Creates a Kubernetes cluster.
 * Deploy a container using Kubernetes and make a prediction.
 
-The project has been tested with CircleCI and contains a test PASSED badge. 
+The project has been tested with CircleCI and contains a test PASSED badge. The prediction outputs are showcased in folder `output_txt_files`.
+
+## Project Components
+
+### Dockerfile
+Dockerfile creates a working directory and copies the source code to that directory. It installs the requirements listed in `requirements.txt` file and exposes port 80 from the container to the host. Lastly it runs the `app.py`. 
+
+### Python Files
+The project contains a single python file `app.py` which predicts housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, etc. 
+
+
 
