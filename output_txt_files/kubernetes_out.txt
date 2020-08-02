@@ -1,0 +1,9 @@
+(.devops) cr2d20@esxplat-c2d20-18:~/DevOps_Microservices/project-ml-microservice-kubernetes$ ./run_kubernetes.sh 
+Error from server (AlreadyExists): pods "microservices" already exists
+NAME            READY   STATUS    RESTARTS   AGE
+microservices   1/1     Running   0          3m37s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+
+Handling connection for 8000
+
