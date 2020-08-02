@@ -33,4 +33,9 @@ This project contains the following shell scripts
 #### Running Shell scripts
 `./<script-name>`
 
+### Makefile 
+Makefile for instructions on environment setup and linting tests
+#### Running Makefile 
+`make <stage>`
+
 
