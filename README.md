@@ -22,7 +22,15 @@ Dockerfile creates a working directory and copies the source code to that direct
 ### Python Files
 The project contains a single python file `app.py` which predicts housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, etc. 
 #### Running Python Files 
-python app.py 
+`python app.py`
 
+### Shell scripts 
+This project contains the following shell scripts 
+* run_docker.sh : Builds a docker image and adds a tag to it. Also runs the flask app `app.py`. 
+* upload_docker.sh : Uploads the built image from run_docker.sh to docker hub. 
+* run_kubernetes.sh : Runs the docker hub container with Kubernetes 
+* make_prediction.sh : Sample script to make predictions 
+#### Running Shell scripts
+`./<script-name>`
 
 
